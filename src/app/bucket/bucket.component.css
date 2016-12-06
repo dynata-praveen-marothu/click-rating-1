@@ -1,0 +1,25 @@
+.cls-bucket
+{
+  margin-left: 5px;
+  background-color: #CFD8DC;
+  display: inline-block;
+  position: absolute;
+  box-sizing: border-box;
+  border: 3px solid #B0BEC5;
+  cursor: pointer;
+}
+
+.cls-bucket:hover
+{
+  border: 3px solid #78909C;
+}
+
+.cls-label
+{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 12px;
+  background-color: #B0BEC5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

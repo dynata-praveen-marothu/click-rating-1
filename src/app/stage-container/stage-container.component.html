@@ -1,0 +1,17 @@
+<div  class="cls-stage"
+      [style.width.px]="config.stageWidth"
+      [style.height.px]="config.stageHeight">
+
+  <app-bucket *ngFor        ="let bucket of buckets"
+              [bucket]      ="bucket"
+              [config]      ="config"
+              (bucketClick) ="bucketClickReceived($event)"></app-bucket>
+
+  <app-card   *ngFor      = "let card of cards"
+              [card]      = "card"
+              [activeidx] = "activeidx"
+              [config]= "config"></app-card>
+
+
+
+</div>

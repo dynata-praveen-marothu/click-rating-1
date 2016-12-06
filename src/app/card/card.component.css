@@ -1,0 +1,22 @@
+.cls-card
+{
+  position: absolute;
+  margin-left: 5px;
+  background-color: #78909C;
+  display: inline-block;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 11px;
+  line-height: 30px;
+  box-sizing: border-box;
+
+  color:#FFFFFF;
+
+  transition-property:top,left;
+  transition-duration:500ms;
+
+
+}
+
+
+
